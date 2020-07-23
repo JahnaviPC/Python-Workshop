@@ -17,3 +17,16 @@ Enter element:1
 Enter element:6
 Enter element:2
 Largest element is: 6
+
+    
+x=0
+print('The greatest no is',max([int(input(x)) for _ in range(int(input("Enter no")))]))
+
+OUTPUT:
+Enter no5
+2
+3
+1
+6
+2
+The greatest no is 6
